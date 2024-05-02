@@ -14,5 +14,5 @@ COPY /public /app/public
 # Expose appropriate port
 EXPOSE 8080 
 
-# Run the serv
+# Run the ser
 CMD ["node", "server.js"]
